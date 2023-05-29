@@ -19,9 +19,9 @@ export default function App() {
           <React.Fragment>
             <SignInComponent />
             <h1 className='title'>Click Blitz</h1>
-            <a className='startButton' href='#/' onClick={startGame}>
+            <button className='startButton' onClick={startGame}>
               Start
-            </a>
+            </button>
           </React.Fragment>
         )}
         {isGameStarted && <RandomButton />}
