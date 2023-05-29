@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import RandomButton from "./component/RandomButtonGame";
+import SignInComponent from "./component/SignInComponent";
+import React, { useState } from "react";
 
-function App() {
+import "./App.css";
+
+export default function App() {
+  const [isGameStarted, setGameStarted] = useState(false);
+
+  // Function top start game
+  const startGame = () => {
+    setGameStarted(true);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <div className='game'>
+        {!isGameStarted && (
+          <React.Fragment>
+            <SignInComponent />
+            <h1 className='title'>Click Blitz</h1>
+            <a className='startButton' href='#/' onClick={startGame}>
+              Start
+            </a>
+          </React.Fragment>
+        )}
+        {isGameStarted && <RandomButton />}
+      </div>
+    </React.Fragment>
   );
 }
-
-export default App;

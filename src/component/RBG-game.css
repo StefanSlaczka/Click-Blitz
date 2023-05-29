@@ -1,0 +1,18 @@
+.gameData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ea00ff;
+  padding: .05%;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbarText {
+  margin: 0 10%;
+  margin-right: 20%;
+  font-size: 2rem ;
+}
