@@ -16,3 +16,21 @@
   margin-right: 10%;
   font-size: small;
 }
+
+.startButton {
+  display: flex;
+  aspect-ratio: 1/1;
+  width: 10%;
+  background: linear-gradient(160deg, #ff0000 60%, #00d9ff 60%);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+}

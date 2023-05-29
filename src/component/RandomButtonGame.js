@@ -67,7 +67,7 @@ const RandomButton = () => {
       ) : (
         <div className='gameOver'>
           Game Over!
-          <button onClick={restartGame}>Restart</button>
+          <button className="startButton" onClick={restartGame}>Restart</button>
         </div>
       )}
     </div>
