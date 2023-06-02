@@ -71,6 +71,8 @@
   position: absolute;
   animation: bounce 6s infinite;
 }
+
+/*it's not a bug it's is a feature */
 @keyframes bounce {
   0%,
   100% {

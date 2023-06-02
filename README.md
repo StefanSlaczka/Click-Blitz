@@ -1,3 +1,43 @@
+Project Name - Click Blitz
+
+Brief description{
+This website it a clicking game based to increase you Reaction time. The user has 60 seconeds to click the button to gain pionts for there score. When the time runs out the button will turn to a restart button to play the game.
+}
+
+Features {
+On the start menu the logo Click Blitz goes around the button to inties the end-use to play the game.
+}
+
+Technologies Used {
+React.js, JSX, css
+}
+
+Installation {
+This was created with - npx create-react-app
+}
+
+Screenshots {
+Website link https://click-blitz.vercel.app/
+}
+
+License {
+MIT
+}
+
+Contact {
+stefslaczka@gmail.com
+}
+
+Overview {
+This project uses React Hooks, State Mangment, and Use Effect. This uses hookes to keep trake of the score and later on the username. State is used to display the time, user, and score. Use Effect is used to keep trake of time. The purpose of this app is to make people's reaction time and clicking abilty better at overtime. Goals to make a back-end with mogoDB for account creating.
+}
+
+React (version 18.2.0)
+JavaScript
+HTML/CSS
+
+////////////////////////////////////////////////////////
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
